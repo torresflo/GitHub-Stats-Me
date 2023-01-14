@@ -38,7 +38,7 @@ You can add a shortcut with:
 
 ### Project setup
 
-For updating your github profile README, you can follow [update-github-stats.yml](https://github.com/torresflo/torresflo/blob/main/.github/workflows/update-github-stats.yml) to create a GitHub Action in your README repository.
+For updating your github profile README, you can follow [update-github-stats.yml](https://github.com/torresflo/GitHub-Stats-Me/blob/main/.github/workflows/update-github-stats.yml) to create a GitHub Action in your README repository.
 
 ## Example
 
