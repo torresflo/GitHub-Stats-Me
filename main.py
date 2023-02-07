@@ -12,10 +12,9 @@ if __name__ == '__main__':
     if token is None:
         raise Exception(f"Cannot find environment variable: GH_TOKEN")
 
-    gitHubStatsData = GitHubStatsData(login, token)
-    
     fileName = os.getenv("MARKDOWN_FILE")
     if fileName is None:
         raise Exception(f"Cannot find environment variable: MARKDOWN_FILE")
 
+    gitHubStatsData = GitHubStatsData(login, token)
     FileManager.writeStatsInFile(fileName, gitHubStatsData)
