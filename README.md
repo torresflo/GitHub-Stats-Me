@@ -50,7 +50,7 @@ For updating your github profile README, you can follow [update-github-stats.yml
 
 Here is an example from my own [profile](https://github.com/torresflo) that you could obtain:
 
-![Example image](https://raw.githubusercontent.com/torresflo/GitHub-Stats-Me/main/examples/example1.png)
+![Example image](https://raw.githubusercontent.com/torresflo/GitHub-Stats-Me/main/examples/example.png)
 
 ## Contributing
 
