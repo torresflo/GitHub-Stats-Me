@@ -48,17 +48,17 @@ class LanguagesStatsBuilder:
         string += f" {percent:.2f}%\n"
         return string
 
-    def generateBarChartString(percent: float, size: int = 40) -> str:
+    def generateBarChartString(percent: float, size: int = 35) -> str:
         string = ""
         symbols = "⣀⣄⣤⣦⣶⣷⣿"
-        frac = math.floor((size * 7 * percent) / 100)
-        barsFull = math.floor(frac / 7)
+        frac = math.floor((size * 6 * percent) / 100)
+        barsFull = math.floor(frac / 6)
 
         if barsFull >= size: 
-            string = symbols[8:9] * size
+            string = symbols[6:7] * size
         else:
-            semi = frac % 7
-            string += symbols[7:8] * barsFull
+            semi = frac % 6
+            string += symbols[6:7] * barsFull
             string += symbols[semi:semi + 1]
             string = string.ljust(size, symbols[0:1])
         return string
