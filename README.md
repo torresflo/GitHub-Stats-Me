@@ -30,11 +30,17 @@
 
 Add comments to the place where you want to update in your readme file.
 
-You can add a shortcut with:
-   ```markdown
-    <!-- github-stats-box start -->
-    <!-- github-stats-box end -->
-   ```
+You can add your GitHub stats with:
+  ```markdown
+  <!-- github-stats-box start -->
+  <!-- github-stats-box end -->
+  ```
+
+  You can add your most used languages stats with:
+  ```markdown
+  <!-- language-stats-box start -->
+  <!-- language-stats-box end -->
+  ```
 
 ### Project setup
 
@@ -42,7 +48,7 @@ For updating your github profile README, you can follow [update-github-stats.yml
 
 ## Example
 
-Here is an example from my own profile that you could obtain:
+Here is an example from my own [profile](https://github.com/torresflo) that you could obtain:
 
 ![Example image](https://raw.githubusercontent.com/torresflo/GitHub-Stats-Me/main/examples/example1.png)
 
